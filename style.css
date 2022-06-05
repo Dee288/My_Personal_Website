@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+#header{
+    color: aliceblue;
+    font-size:medium;
+    font-style: normal;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background: #000;
+    height:10vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 1.4em;
+    font-weight: 500;
+    color: whitesmoke;
+}
+span{
+    color: crimson;
+    font-style: italic;
+}
+#aboutlinks{
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 1.7em;
+}
+a.logbtn {
+     color: aliceblue;
+     font-size:medium;
+     font-weight: 600;
+     padding: 10px 20px;
+     border: 2px solid transparent;
+}
+a#signbtn{
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 600;
+    padding: 8px 17px;
+    background-color: crimson;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+a#signbtn:hover{
+    background: transparent;
+    border: 2px solid whitesmoke
+}
+section{
+    padding: 120px 16px;
+}
+.home{
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    background-image:url(./images/wil-stewart-pHANr-CpbYM-unsplash.jpg);
+    position: relative; 
+}
+.heading{
+    margin-top: 150px;
+    margin-left: 170px;
+    color: aliceblue;
+    line-height: 2.6em;
+}
+h1{
+    font-size: 3em;
+    line-height: 1.6em;
+}
+h2{
+    font-size: 2.4em;
+}
+p{
+    font-size: 1.2em;
+}
+.check{
+    color: #000;
+    text-decoration: underline;
+    font-weight: 700;
+}
